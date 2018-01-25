@@ -14,6 +14,8 @@
 		653B3E6620198A2D003E0A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653B3E6420198A2D003E0A62 /* LaunchScreen.storyboard */; };
 		653B3E7120198A2D003E0A62 /* Library_SleepersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653B3E7020198A2D003E0A62 /* Library_SleepersTests.swift */; };
 		653B3E7C20198A2D003E0A62 /* Library_SleepersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653B3E7B20198A2D003E0A62 /* Library_SleepersUITests.swift */; };
+		653B3E8A20198CA6003E0A62 /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653B3E8920198CA6003E0A62 /* GCDBlackBox.swift */; };
+		653B3E8C20198CC0003E0A62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653B3E8B20198CC0003E0A62 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		653B3E7720198A2D003E0A62 /* Library SleepersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library SleepersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		653B3E7B20198A2D003E0A62 /* Library_SleepersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library_SleepersUITests.swift; sourceTree = "<group>"; };
 		653B3E7D20198A2D003E0A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653B3E8920198CA6003E0A62 /* GCDBlackBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
+		653B3E8B20198CC0003E0A62 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				653B3E5B20198A2D003E0A62 /* AppDelegate.swift */,
 				653B3E5D20198A2D003E0A62 /* ViewController.swift */,
+				653B3E8920198CA6003E0A62 /* GCDBlackBox.swift */,
+				653B3E8B20198CC0003E0A62 /* Constants.swift */,
 				653B3E5F20198A2D003E0A62 /* Main.storyboard */,
 				653B3E6220198A2D003E0A62 /* Assets.xcassets */,
 				653B3E6420198A2D003E0A62 /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				653B3E5E20198A2D003E0A62 /* ViewController.swift in Sources */,
+				653B3E8A20198CA6003E0A62 /* GCDBlackBox.swift in Sources */,
 				653B3E5C20198A2D003E0A62 /* AppDelegate.swift in Sources */,
+				653B3E8C20198CC0003E0A62 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

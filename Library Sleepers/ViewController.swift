@@ -9,17 +9,43 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet weak var photoTitleLabel: UILabel!
+    @IBOutlet weak var grabImageButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //photoTitleLabel.text = ""
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func grabNewImage(_ sender: Any) {
+        setUIEnabled(enabled: false)
+        getImageFromFlickr()
     }
-
-
+    
+    func setUIEnabled(enabled: Bool) {
+        photoTitleLabel.isEnabled = enabled
+        grabImageButton.isEnabled = enabled
+        grabImageButton.alpha = (enabled) ? 1.0 : 0.5
+        /*
+        if enabled {
+            grabImageButton.alpha = 1.0
+        } else {
+            grabImageButton.alpha = 0.5
+        }
+        */
+    }
+    
+    private func getImageFromFlickr() {
+        //let url = URL(string: )
+    }
+    /*
+    func escapedParameters(parameters: [String:Any]) -> String {
+        
+    }
+    */
 }
 
